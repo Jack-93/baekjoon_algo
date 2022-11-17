@@ -1,33 +1,36 @@
 {
-  "workbench.colorTheme": "Default Dark+",
-  "editor.fontSize": 18,
-  "terminal.integrated.fontSize": 15,
-  "files.autoSave": "onFocusChange",
-  "explorer.confirmDelete": false,
-  "terminal.integrated.defaultProfile.windows": "Command Prompt",
-  "files.encoding": "euckr",
-  "C_Cpp.autocompleteAddParentheses": true,
-  "window.autoDetectColorScheme": true,
-  "security.workspace.trust.untrustedFiles": "open",
-  "launch": {
-    "configurations": [],
-    "compounds": []
-  },
-  "editor.tokenColorCustomizations": {
-    "comments": "#68e78e"
-  },
-  "gitlens.codeLens.dateFormat": "",
-  "gitlens.views.worktrees.showBranchComparison": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "editor.formatOnPaste": true,
-  "window.zoomLevel": 1,
-  "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
-  "html.format.unformatted": "",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+	"workbench.colorTheme": "Default Dark+",
+	"editor.fontSize": 18,
+	"terminal.integrated.fontSize": 15,
+	"files.autoSave": "onFocusChange",
+	"explorer.confirmDelete": false,
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"files.encoding": "euckr",
+	"C_Cpp.autocompleteAddParentheses": true,
+	"window.autoDetectColorScheme": true,
+	"security.workspace.trust.untrustedFiles": "open",
+	"launch": {
+		"configurations": [],
+		"compounds": []
+	},
+	"editor.tokenColorCustomizations": {
+		"comments": "#68e78e"
+	},
+	"gitlens.codeLens.dateFormat": "",
+	"gitlens.views.worktrees.showBranchComparison": false,
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"editor.formatOnPaste": true,
+	"window.zoomLevel": 1,
+	"C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
+	"html.format.unformatted": "",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"files.associations": {
+		"iosfwd": "cpp"
+	}
 }
