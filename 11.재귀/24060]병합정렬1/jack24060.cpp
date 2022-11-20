@@ -17,7 +17,7 @@ int merge_sort(int A[], int p, int r)
 // A[p..q]와 A[q+1..r]을 병합하여 A[p..r]을 오름차순 정렬된 상태로 만든다.
 // A[p..q]와 A[q+1..r]은 이미 오름차순으로 정렬되어 있다.
 int merge(int A[],int p,int q,int r) {
-    mem_count++;
+    MAX_mem_count++;
     int i = p;
     int j = q + 1;
     int t = 1;
@@ -41,7 +41,7 @@ int main(){
     int a = sizeof(arr);
 
     cin >> a;
-    cin>>mem_count;
+    cin>>MAX_mem_count;
 
     return 0;
 }
