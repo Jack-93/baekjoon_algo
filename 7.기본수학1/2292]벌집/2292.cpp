@@ -10,30 +10,32 @@ using namespace std;
 -> y = 6x;
 */
 int main(){
-    int y;
-    int room_number;
-    int line=1;
-    int count=1;
-    int i=1;
-    cin>>room_number;
-    if(room_number==1) cout<<"1";
-    else{
-        while(i++)
-        {
-            y=line+1;
-            line+=6*count;
+    long long y=1;
+    long long room_number=0;
 
-            if(y<=room_number && room_number <=line) {
-                cout<<i+1;
-                break;
-            }
+    int count=1;
+    int line=1;
+
+    cin>>room_number;
+
+    if(room_number==1){
+        cout<<"1";
+        return 0;
+    }
+    // ex room_number==61 -> 6 ??
+
+    // 61>=1 {y=6, count=2}
+    // 61>=7 {y=12, count=3}
+    // 61>=19 {y=18, count=4}
+    // 61>=37 {y=24, count=5}
+    // 61>=61
+    else{
+        while(room_number>y){
+            y+=6*count;
+            count++;
         }
     }
-
-
-    cin>>room_number;
-
+    cout<<count;
 
     return 0;
-
 }
