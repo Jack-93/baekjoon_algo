@@ -33,5 +33,8 @@
 	"files.associations": {
 		"iosfwd": "cpp"
 	},
-	"diffEditor.codeLens": true
+	"diffEditor.codeLens": true,
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	}
 }
