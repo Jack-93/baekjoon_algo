@@ -6,10 +6,15 @@ using namespace std;
 int main()
 {
     int n = 0;
+    int m = 0;
     bool prime[n + 1];
     int count = 0;
-    cin >> n;
 
+    cin >> n;
+    for (int i = 0; i < n; i++)
+    {
+        cin >> m;
+    }
     for (int i = 2; i < n; i++)
     {
         prime[i] = true;
